@@ -1,0 +1,4 @@
+{
+  "error.NOT_FOUND": "잘못된 요청입니다.",
+  "error.BAD_REQUEST": "400 에러 : 잘못된 클라이언트 요청입니다."
+}

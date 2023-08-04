@@ -1,0 +1,4 @@
+{
+  "error.NOT_FOUND": "Wrong request",
+  "error.BAD_REQUEST": "400 error : bad client rquest"
+}
