@@ -25,3 +25,11 @@
     <!-- eslint -->
     exec 3<&1;bash <&3 <(curl https://raw.githubusercontent.com/paulolramos/eslint-prettier-airbnb-react/master/eslint-prettier-config.sh 2> /dev/null)
 ```
+
+## 명명규칙
+
+### export된 요소 prefix
+Wook(컴포넌트) or wook(상수, 변수, 스테이터스, 타입등) or WOOK(글로벌 상수)
+
+### local에서 쓰인 요소 prefix
+Local(컴포넌트) or local(상수, 변수, 스테이터스, 타입)

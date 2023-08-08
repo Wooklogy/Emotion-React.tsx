@@ -3,17 +3,17 @@ import { initReactI18next } from 'react-i18next';
 import EN_US from './languages/en-US.json';
 import KO_KR from './languages/ko-KR.json';
 
-interface USEABLE_LANGUAGEprops {
+interface UseableProps {
   kor: string;
   eng: string;
 }
 
-const languages = ["ko-KR", "en-US"];
+const languages = ['ko-KR', 'en-US'];
 
-export const USEABLE_LANGUAGE: USEABLE_LANGUAGEprops = {
+export const USEABLE_LANGUAGE: UseableProps = {
   eng: languages[1],
-  kor:languages[0]
-}
+  kor: languages[0],
+};
 function loadResource(lng: string) {
   let lanModule = null;
 
@@ -40,7 +40,7 @@ function getResources(lngs: string[]) {
 
   lngs.forEach((lng:string) => {
     resources[lng] = {
-       common:loadResource(lng)
+      common: loadResource(lng),
     };
   });
 
